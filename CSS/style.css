@@ -1,0 +1,88 @@
+:root {
+  --bg-color: white;
+  --link-color: black;
+  --link-hover: grey;
+  --secondary-color: white;
+  --main-text-color: #000;
+  --primary-font: "Gotham", sans-serif;
+  --secondary-font: "Gotham", sans-serif, font-weight 500;
+
+  --white-space: 1rem;
+}
+
+.bg {
+  background: url(/img/3.png) no-repeat center center fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  height: 100vh;
+  font-size: 100%;
+  font-family: var(--primary-font);
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  height: 30vh;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 1rem;
+  margin-right: 20rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+nav a:hover {
+  color: var(--secondary-color);
+  /* font-weight: 500; */
+  /* transition: all 0.5s; */
+  /* font-size: 1.4rem; */
+}
+nav a:first-child {
+  margin-right: 25rem;
+  font-size: 3rem;
+  font-weight: 700;
+  /*  margin-top: -0.5rem; */
+  font-family: var(--primary-font);
+  margin-left: 2rem;
+}
+
+.h1_collection {
+  color: var(--secondary-color);
+  font-size: 25vh;
+  margin: 0;
+  padding-top: 30vh;
+  padding-left: 5vw;
+}
+
+/*Footer*/
+footer {
+  height: 48vh;
+  min-height: 50vh;
+  padding: 0px;
+  font-size: 12px;
+  color: black;
+  background-color: white;
+}
+
+.footer-style {
+  color: black;
+  font: var(--primary-font);
+  margin-right: 25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  /*  margin-top: -0.5rem; */
+  font-family: var(--primary-font);
+  margin-left: 2rem;
+}
