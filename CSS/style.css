@@ -233,7 +233,7 @@ footer {
   color: white;
 }
 
-#li_contact {
+.li_contact {
   color: white;
   list-style: none;
   font-family: var(--secondary-font);
