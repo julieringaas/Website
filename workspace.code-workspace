@@ -1,7 +1,15 @@
 {
   "folders": [
+<<<<<<< HEAD
     {
       "path": "."
     }
   ]
+=======
+	{
+		"path": "."
+	}
+],
+  "settings": {}
+>>>>>>> list-view
 }
