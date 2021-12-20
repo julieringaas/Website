@@ -15,6 +15,10 @@ body {
   padding: 0px;
 }
 
+.logo {
+  width: 20vw;
+}
+
 .bg {
   background: url(/img/1.png) no-repeat center center fixed;
   /* -webkit-background-size: cover;
@@ -127,7 +131,7 @@ body {
   gap: 2rem;
   align-items: baseline;
   padding: 1rem;
-  margin-right: 20rem;
+  margin-right: 25rem;
   margin-left: 1rem;
   margin-top: 2rem;
   font-family: var(--primary-font);
@@ -241,6 +245,36 @@ footer {
   margin-bottom: 3vh;
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+/*list view*/
+
+.listnav {
+  color: black;
+}
+
+main {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 0;
+}
+.listmain {
+  margin-top: 17vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 17vh;
+}
+.listimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--bg-color);
+  width: 47vw;
+}
+
+.listh1 {
+  font-family: var(--secondary-font);
 }
 
 /*Media queries*/
@@ -660,5 +694,24 @@ footer {
     font-size: 2rem;
     font-family: var(--secondary-font);
     margin-left: 30vw;
+  }
+
+  main {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 0;
+  }
+  .listmain {
+    margin: 7vw;
+  }
+  .listimg {
+    display: block;
+    width: 80vw;
+    z-index: -2;
+  }
+
+  .listh1 {
+    font-family: var(--secondary-font);
   }
 }
